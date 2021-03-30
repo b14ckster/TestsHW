@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultDivSuite">
+    <test name="MultDivTest">
+        <classes>
+            <class name="HW1.MultTest" />
+            <class name="HW1.DivTest"/>
+        </classes>
+    </test>
+</suite>

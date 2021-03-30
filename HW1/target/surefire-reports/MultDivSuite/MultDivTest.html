@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  MultDivTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MultDivTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 30 18:18:29 MSK 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (20 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 7.01, -17.8</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 0.01, 0.99</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 128768.1, 9812.2</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: -98.2, -98.2</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 0, 76.9</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 0, 1</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 6.99, -34</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: -3.4, 3.4</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestDouble()'><b>divTestDouble</b><br>Test class: HW1.DivTest<br>Parameters: 4.9E-324, 1.7976931348623157E308</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: 7, -17</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: 0, -4</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: 128768, 9812</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: -98, -98</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: 0, 76</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: 0, 1</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: 6, 3</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: -3, 3</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.DivTest.divTestLong()'><b>divTestLong</b><br>Test class: HW1.DivTest<br>Parameters: -9223372036854775808, 9223372036854775807</td>
+<td></td>
+<td>0</td>
+<td>HW1.DivTest@515aebb0</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 7.01, -17.8</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 0.01, 0.99</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 128768.1, 9812.2</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: -98.2, -98.2</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 0, 76.9</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 0, 0</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 6.99, 0</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: -3.4, 3.4</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestDouble()'><b>multTestDouble</b><br>Test class: HW1.MultTest<br>Parameters: 4.9E-324, 1.7976931348623157E308</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: 7, -17</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: 0, 0</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: 128768, 9812</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: -98, -98</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: 0, 76</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: 0, 0</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: 6, 0</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: -3, 3</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+<tr>
+<td title='HW1.MultTest.multTestLong()'><b>multTestLong</b><br>Test class: HW1.MultTest<br>Parameters: -9223372036854775808, 9223372036854775807</td>
+<td></td>
+<td>0</td>
+<td>HW1.MultTest@37afeb11</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="81" failures="0" name="TestSuite" time="0.016" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.boot.library.path" value="D:\Users\B1ackster\Downloads\openjdk-11_windows-x64_bin\jdk-11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Work_files\EpamHW\HW1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Work_files\EpamHW\HW1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\B1ACKS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Work_files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\Users\B1ackster\Downloads\openjdk-11_windows-x64_bin\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files (x86)\Microsoft Visual Studio\Visual Leak Detector\bin;D:\Games\PuTTY\;D:\Work files\Git\cmd;D:\Users\B1ackster\Downloads\openjdk-11_windows-x64_bin\jdk-11\bin;D:\Work_files\apache-maven-3.6.3\bin;C:\Users\B1ackster\AppData\Local\Microsoft\WindowsApps;D:\MiKTeX\miktex\bin\x64\;D:\Games\Microsoft VS Code\bin;C:\Users\B1ackster\AppData\Local\GitHubDesktop\bin;D:\Work_files\apache-maven-3.6.3\bin;D:\Games\IntelliJ IDEA Community Edition 2020.3.3\bin;;D:\Users\B1ackster\Downloads\openjdk-11_windows-x64_bin\jdk-11\bin;;."/>
+    <property name="maven.conf" value="D:\Work_files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Work_files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\B1ackster"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="B1ackster"/>
+    <property name="java.class.path" value="D:\Work_files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Ptest-All"/>
+    <property name="java.home" value="D:\Users\B1ackster\Downloads\openjdk-11_windows-x64_bin\jdk-11"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="maven.home" value="D:\Work_files\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0.003"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0.005"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestDouble" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0.001"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0.001"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.AddTest" name="addTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0.001"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestDouble" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.SubTest" name="subTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0.001"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0.001"/>
+  <testcase classname="HW1.MultTest" name="multTestDouble" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.MultTest" name="multTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0.001"/>
+  <testcase classname="HW1.DivTest" name="divTestDouble" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0.001"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0"/>
+  <testcase classname="HW1.DivTest" name="divTestLong" time="0.001"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+  <testcase classname="HW1.SqrtTest" name="sqrtTestDouble" time="0"/>
+</testsuite>
