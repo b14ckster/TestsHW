@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-01T01:55:14 MSK" name="Ex2Test" finished-at="2021-06-01T01:55:23 MSK" duration-ms="9261">
+    <groups>
+    </groups>
+    <test started-at="2021-06-01T01:55:14 MSK" name="Ex2Test" finished-at="2021-06-01T01:55:23 MSK" duration-ms="9261">
+      <class name="HW2.Ex2.Exercise2">
+        <test-method is-config="true" signature="init()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:14 MSK" name="init" finished-at="2021-06-01T01:55:16 MSK" duration-ms="2440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="URLTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:16 MSK" name="URLTest" finished-at="2021-06-01T01:55:16 MSK" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URLTest -->
+        <test-method signature="brTitleTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:16 MSK" name="brTitleTest" finished-at="2021-06-01T01:55:16 MSK" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brTitleTest -->
+        <test-method signature="headerTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:16 MSK" name="headerTest" finished-at="2021-06-01T01:55:17 MSK" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest -->
+        <test-method signature="leftSectionServiceTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:17 MSK" name="leftSectionServiceTest" finished-at="2021-06-01T01:55:18 MSK" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftSectionServiceTest -->
+        <test-method signature="loginTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:18 MSK" name="loginTest" finished-at="2021-06-01T01:55:19 MSK" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="difElPageObservationTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:19 MSK" name="difElPageObservationTest" finished-at="2021-06-01T01:55:20 MSK" depends-on-methods="HW2.Ex2.Exercise2.headerTest, HW2.Ex2.Exercise2.loginTest" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- difElPageObservationTest -->
+        <test-method signature="ifLoggined()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:20 MSK" name="ifLoggined" finished-at="2021-06-01T01:55:20 MSK" depends-on-methods="HW2.Ex2.Exercise2.loginTest" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifLoggined -->
+        <test-method signature="checkBoxesTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:20 MSK" name="checkBoxesTest" finished-at="2021-06-01T01:55:21 MSK" depends-on-methods="HW2.Ex2.Exercise2.difElPageObservationTest" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxesTest -->
+        <test-method signature="dropTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:21 MSK" name="dropTest" finished-at="2021-06-01T01:55:22 MSK" depends-on-methods="HW2.Ex2.Exercise2.difElPageObservationTest" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropTest -->
+        <test-method signature="leftSectionTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:22 MSK" name="leftSectionTest" finished-at="2021-06-01T01:55:22 MSK" depends-on-methods="HW2.Ex2.Exercise2.difElPageObservationTest" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftSectionTest -->
+        <test-method signature="radioTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:22 MSK" name="radioTest" finished-at="2021-06-01T01:55:22 MSK" depends-on-methods="HW2.Ex2.Exercise2.difElPageObservationTest" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioTest -->
+        <test-method signature="rightSectionTest()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:22 MSK" name="rightSectionTest" finished-at="2021-06-01T01:55:22 MSK" depends-on-methods="HW2.Ex2.Exercise2.difElPageObservationTest" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightSectionTest -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:HW2.Ex2.Exercise2@16a0ee18]" started-at="2021-06-01T01:55:22 MSK" name="exit" finished-at="2021-06-01T01:55:23 MSK" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- HW2.Ex2.Exercise2 -->
+    </test> <!-- Ex2Test -->
+  </suite> <!-- Ex2Test -->
+  <suite started-at="2021-06-01T01:55:07 MSK" name="Ex1Test" finished-at="2021-06-01T01:55:14 MSK" duration-ms="6615">
+    <groups>
+    </groups>
+    <test started-at="2021-06-01T01:55:07 MSK" name="Ex1Test" finished-at="2021-06-01T01:55:14 MSK" duration-ms="6615">
+      <class name="HW2.Ex1.Exercise1">
+        <test-method is-config="true" signature="init()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:07 MSK" name="init" finished-at="2021-06-01T01:55:11 MSK" duration-ms="3841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="centerIFrameTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:11 MSK" name="centerIFrameTest" finished-at="2021-06-01T01:55:11 MSK" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- centerIFrameTest -->
+        <test-method signature="footerTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:11 MSK" name="footerTest" finished-at="2021-06-01T01:55:11 MSK" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerTest -->
+        <test-method signature="headerTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:11 MSK" name="headerTest" finished-at="2021-06-01T01:55:12 MSK" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest -->
+        <test-method signature="imagesTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:12 MSK" name="imagesTest" finished-at="2021-06-01T01:55:12 MSK" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesTest -->
+        <test-method signature="leftSectionTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:12 MSK" name="leftSectionTest" finished-at="2021-06-01T01:55:12 MSK" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftSectionTest -->
+        <test-method signature="loginTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:12 MSK" name="loginTest" finished-at="2021-06-01T01:55:12 MSK" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="mainHeadersContentTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:12 MSK" name="mainHeadersContentTest" finished-at="2021-06-01T01:55:13 MSK" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHeadersContentTest -->
+        <test-method signature="openPageTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:13 MSK" name="openPageTest" finished-at="2021-06-01T01:55:13 MSK" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPageTest -->
+        <test-method signature="subHeaderTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:13 MSK" name="subHeaderTest" finished-at="2021-06-01T01:55:13 MSK" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subHeaderTest -->
+        <test-method signature="textTest()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:13 MSK" name="textTest" finished-at="2021-06-01T01:55:13 MSK" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textTest -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:HW2.Ex1.Exercise1@22e357dc]" started-at="2021-06-01T01:55:13 MSK" name="exit" finished-at="2021-06-01T01:55:14 MSK" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- HW2.Ex1.Exercise1 -->
+    </test> <!-- Ex1Test -->
+  </suite> <!-- Ex1Test -->
+</testng-results>
