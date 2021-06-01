@@ -111,7 +111,7 @@ public class CucumberSteps {
     public void checkHeaderTitles() {
         MainHeader mainHeader = new MainHeader(webDriver);
         List<String> headerTitles = mainHeader.getHeaderTitles();
-        List<String> refTitles = Arrays.asList(ex1Properies.getProperty("top.menu.titles").split("\s*,\s*"));
+        List<String> refTitles = Arrays.asList(ex1Properies.getProperty("top.menu.titles").split(","));
 
         Assert.assertEquals(headerTitles, refTitles);
     }
@@ -216,7 +216,7 @@ public class CucumberSteps {
     public void checkHeaderServiceOptions() {
         MainHeader mainHeader = new MainHeader(webDriver);
         List<String> options = mainHeader.getServiceTitles();
-        List<String> refOptions = Arrays.asList(ex2Properties.getProperty("top.drop.options").split("\s*,\s*"));
+        List<String> refOptions = Arrays.asList(ex2Properties.getProperty("top.drop.options").split(","));
 
         Assert.assertEquals(options, refOptions);
     }
@@ -238,7 +238,7 @@ public class CucumberSteps {
     public void checkSideServiceOptions() {
         LeftSection leftSection = new LeftSection(webDriver);
         List<String> options = leftSection.getSideServiseTitles();
-        List<String> refOptions = Arrays.asList(ex2Properties.getProperty("side.drop.options").split("\s*,\s*"));
+        List<String> refOptions = Arrays.asList(ex2Properties.getProperty("side.drop.options").split(","));
 
         Assert.assertEquals(options, refOptions);
     }
